@@ -25,7 +25,7 @@ container.addEventListener("click", (e) => {
   }
 });
 
-movieSelect.addEventListener('change', e => {
-    ticketPrice = +e.target.value;
-    updateSelectedCount();
-})
+movieSelect.addEventListener("change", (e) => {
+  ticketPrice = +e.target.value;
+  updateSelectedCount();
+});
